@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600&display=swap");
+
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  background-color: rgba(255, 255, 255, 0.75);
+  display: flex;
+}
+.side-bar * {
+  color: rgba(255, 255, 255, 1);
+}
+
+.side-bar {
+  background-color: rgba(0, 0, 0, 0.85);
+  height: 100vh;
+  width: 244px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: 300;
+}
+
+.new-chat-button {
+  border: 0.5px solid rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.main-nav {
+  border-top: 0.5px solid rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.history {
+  padding: 10px;
+  margin: 10px;
+  height: 100%;
+}
+
+.history li {
+  list-style-type: none;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+.main * {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.app-name {
+  font-size: 18px;
+}
+
+.info {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.bottom-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+  max-width: 650px;
+}
+
+.input-container input {
+  width: 100%;
+  font-size: 16px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 15px 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.submit-symbol {
+  position: absolute;
+  bottom: 15px;
+  right: 0;
+  cursor: pointer;
+}
